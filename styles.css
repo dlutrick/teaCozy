@@ -32,7 +32,10 @@ body {
 
 .navbar__logo {
   height: 50px;
-  align-items: center;
+  width: auto;
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
 }
 
 .navbar__links {
@@ -40,6 +43,7 @@ body {
   list-style-type: none;
   gap: 20px;
   align-items: center;
+  margin-right: 10px;
 }
 
 .navbar__links li {

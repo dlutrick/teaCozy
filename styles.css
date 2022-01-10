@@ -87,3 +87,35 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.gallery-section h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+.gallery-section__container {
+  width: 1000px;
+}
+
+.gallery-section__photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.gallery-section__photos-card {
+  text-align: center;
+}
+
+.gallery-section__photos-card h3 {
+  margin-top: 10px;
+}

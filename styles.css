@@ -103,6 +103,7 @@ h3 {
 
 .gallery-section__container {
   width: 1000px;
+  margin-bottom: 40px;
 }
 
 .gallery-section__photos {
@@ -118,4 +119,37 @@ h3 {
 
 .gallery-section__photos-card h3 {
   margin-top: 10px;
+}
+
+.location-section {
+  background-image: url("./images/img-locations-background.jpeg");
+  background-size: cover;
+  background-position: top;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-section__container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.location-section__card {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.location-section__header {
+  margin-bottom: 15px;
 }
